@@ -26,7 +26,15 @@ jobs:
 
             - name: Run tests with pytest
               run: |
-                pytest
+                pytest --html=report.html
+
+            - name: Upload de artefatos
+              uses: actions/upload-artifact@v3
+              with:
+                name: test
+                path: |
+                  report.html
+                  assets
              
     build:
 
