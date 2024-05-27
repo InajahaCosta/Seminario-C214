@@ -52,10 +52,9 @@ jobs:
             run: |
               python -m pip install --upgrade pip
               pip install -r requirements.txt
-              pyinstaller --onefile calculator.py
+             
 
-          - name: Upload de artefatos
-            uses: actions/upload-artifact@v3
+          - uses: actions/upload-artifact@v4
             with:
-              name: run
-              path: dist/main.exe
+                name: my-artifact
+                path: path/to/artifact/ 
