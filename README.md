@@ -1,5 +1,5 @@
 # Seminario-C214
-![CI-CD]{https://github.com/InajahaCosta/Seminario-C214/actions/workflow/cicd.yml/badge.svg}
+[![CI-CD](https://github.com/InajahaCosta/Seminario-C214/actions/workflows/cicd.yml/badge.svg)](https://github.com/InajahaCosta/Seminario-C214/actions/workflows/cicd.yml)
 
 
 Seminário sobre a utilização da ferramenta Pytest.
